@@ -1,16 +1,13 @@
 num=1
 
-99.times do
-num=num+1
-	if num % 3==0
+100.times do
+	if num % 3==0 
 		puts "Mined"
+	
+	elsif num==5
+		puts "Minds"
 	else 
-		puts (num)
-	end
-
-	# if num % 5==0
-	# 	puts "Minds"
-	# else 
- # 		puts (num)
- # 	end
+ 		puts (num)
+ 	end
+num=num+1
  end 
